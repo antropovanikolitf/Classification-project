@@ -1,0 +1,71 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+
+# Python
+__pycache__/
+
+# Results folder (for future use)
+results/
+
+# Future notebooks (not for today's submission)
+notebooks/03_*
+notebooks/04_*
+notebooks/05_*
+notebooks/_later/
+
+# Lessons folder (read-only reference)
+Lessons/
+
+# Model outputs (not needed for notebooks 01-02)
+data/processed_splits.pkl
+data/wine_combined.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data - keep raw wine CSVs, exclude generated files
+data/processed_splits.pkl
+data/wine_combined.csv
+
+# Results (keep structure but not all outputs)
+results/*.png
+results/*.jpg
+results/*.pdf
+!results/.gitkeep
+
+# Environment
+.env
+*.log
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
